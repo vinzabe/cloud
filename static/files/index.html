@@ -1,7 +1,7 @@
 <html ng-app="app">
 
 <head>
-	<title ng-bind="state.Stats.Title">Cloud Torrent</title>
+	<title ng-bind="state.Stats.Title">Katz Torrent</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="css/Lato/Lato.css">
 	<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
@@ -29,7 +29,7 @@
 		<!-- TITLE ===================== -->
 		<div class="title">
 			<h2>
-				<a href="https://github.com/jpillora/cloud-torrent" target="_blank" ng-init="logoHover = false"
+				<a href="https://katz.to" target="_blank" ng-init="logoHover = false"
 				 ng-mouseover="logoHover = true" ng-mouseleave="logoHover = false">
 					<i class="blue icon" ng-class="{cloud:!logoHover, github: logoHover}"></i> {{ state.Stats.Title }}
 				</a>
@@ -57,12 +57,12 @@
 
 		<footer>
 			<div>
-				<span>github.com/
-					<a href="https://github.com/jpillora" target="_blank">jpillora</a>/
-					<a href="https://github.com/jpillora/cloud-torrent" target="_blank">cloud-torrent</a> version {{ state.Stats.Version }} - </span>
+				<span>KatzSec
+					<a href="https://katz.to/" target="_blank">Team</a>/
+					<a href="ttps://katz.to/" target="_blank">katz-torrent</a> version {{ state.Stats.Version }} - </span>
 				<span ng-if="numKeys(state.Users) > 1">{{ numKeys(state.Users) }} users connected - </span>
 				<span>
-					<a href="https://golang.org" target="_blank">Go</a> {{ state.Stats.Runtime }}
+					<a href="https://https://katz.to/members/host.1/" target="_blank">Reinvented by Host</a> {{ state.Stats.Runtime }}
 				</span>
 			</div>
 			<div>
